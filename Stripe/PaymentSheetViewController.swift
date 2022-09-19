@@ -249,7 +249,7 @@ class PaymentSheetViewController: UIViewController {
                 switch mode {
                 case .selectingSaved:
                     if self.savedPaymentOptionsViewController.hasRemovablePaymentMethods {
-                        self.configureEditSavedPaymentMethodsButton()
+                        //self.configureEditSavedPaymentMethodsButton()
                         return .close(showAdditionalButton: true)
                     } else {
                         self.navigationBar.additionalButton.removeTarget(
